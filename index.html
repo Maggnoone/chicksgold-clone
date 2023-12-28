@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles</title>
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/cards.css">
+    <link rel="stylesheet" href="/styles/items_container.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+
+    <div class="navbar">
+        <div class="brand">
+            <a class="menu-toggle">
+                <MenuIcon class="icon" />
+            </a>
+            <img class="logo" src="/img/chicks-logo.png" alt="logo" />
+        </div>
+        <div class="separator"></div>
+
+        <div class="navbar-menu">
+            <div class="dropdown-header">
+                <span>CURRENCY</span>
+                <span class="arrow material-symbols-outlined">
+                    expand_less
+                </span>
+            </div>
+            <div class="dropdown-header">
+                <span>ITEMS</span>
+                <span class="arrow material-symbols-outlined">
+                    expand_less
+                </span>
+            </div>
+            <div class="dropdown-header">
+                <span>ACCOUNTS</span>
+                <span class="arrow material-symbols-outlined">
+                    expand_less
+                </span>
+            </div>
+            <div class="dropdown-header">
+                <span>SERVICES</span>
+                <span class="arrow material-symbols-outlined">
+                    expand_less
+                </span>
+            </div>
+            <div class="dropdown-header">
+                <span>MORE</span>
+                <span class="arrow material-symbols-outlined">
+                    expand_less
+                </span>
+            </div>
+            <div class="dropdown-header">
+                <span>SELL</span>
+                <span class="arrow material-symbols-outlined">
+                    expand_less
+                </span>
+            </div>
+        </div>
+
+        <div class="navbar-end">
+            <div class="dropdown-header end">
+                <span>USD</span>
+                <span class="arrow material-symbols-outlined">
+                    expand_less
+                </span>
+            </div>
+
+            <div class="dropdown-header shopping_cart">
+                <span class="shopping_cart material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <span>CART (5)</span>
+            </div>
+
+            <div class="dropdown-header menu">
+                <span class="menu material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Item's Container -->
+
+    <div class='container'>
+        <div class='row-container2'>
+            <h1 class='header'>Condimentum consectetur</h1>
+        </div>
+        <div class='row-container'>
+            <div class='select-game-bg'>
+                <img src="/img/sword.png" class='sw-icon' />
+                <select disabled class='select-game'>
+                    <option selected value="Select a Game">Select a Game</option>
+                </select>
+            </div>
+
+            <div class='search'>
+                <img src="/img/search.svg" class='search-icon' />
+                <input type="text" class='searchbar' placeholder='Search' />
+            </div>
+
+            <div class='filter'>
+                <div class='select-filter-bg'>
+                    <div class='display-block'><label class='small'>Price</label></div>
+                    <img src="/img/money-bag.svg" class='filter-icon' />
+                    <select disabled class='select-filter'>
+                        <option selected value="All">All</option>
+                    </select>
+                </div>
+
+                <div class='select-filter-bg'>
+                    <div class='display-block'><label class='small'>Item Type</label></div>
+                    <img src="/img/feather.svg" class='filter-icon' />
+                    <select disabled class='select-filter'>
+                        <option selected value="All">All</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class='center-box'>
+            <div class='box'>
+                <div class='row-sort'>
+                    <p class='sort'> Showing 20 - from 125 </p>
+                    <div class='feature'>
+                        <img src="/img/filter.svg" alt="" class='feature-icon' />
+                        <select disabled class='select-feature'>
+                            <option selected value="All">Featured</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class='cards-container'>
+
+
+                    <!-- CARD'S PRODUCT -->
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <p class="prod-price"><span class="disc">$45.000</span></p>
+
+                                    </div>
+
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <!-- <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                  <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" /> -->
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <p class="prod-price"><span class="disc">$45.000</span></p>
+
+                                    </div>
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <!-- <p class="prod-price"><span class="disc">$45.000</span></p> -->
+
+                                    </div>
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <p class="prod-price"><span class="disc">$45.000</span></p>
+
+                                    </div>
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <p class="prod-price"><span class="disc">$45.000</span></p>
+
+                                    </div>
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <p class="prod-price"><span class="disc">$45.000</span></p>
+
+                                    </div>
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <!-- <p class="prod-price"><span class="disc">$45.000</span></p> -->
+
+                                    </div>
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row1">
+                                <div class="label">
+                                    <label class="sale">ON SALE</label>
+                                    <label class='stock'>In stock</label>
+                                </div>
+                                <div class="picture">
+                                    <img src="/img/bow.png" class="prod-image" alt=Bow />
+                                </div>
+                                <div class="prod-titles">
+                                    <div class="titles">
+                                        <p class="prod-name">Bow</p>
+                                        <img src="/img/runescape.png" class="zelda-icon" alt="Zelda Icon" />
+                                    </div>
+
+                                    <div class="prices">
+                                        <p class="prod-price">$45.000</p>
+                                        <p class="prod-price"><span class="disc">$45.000</span></p>
+
+                                    </div>
+
+                                    <p class="prod-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                                    <div class="buttons">
+                                        <button class="details">DETAILS</button>
+                                        <button class="buy">ADD <span class="tocart"><img src="/img/cart.svg"
+                                                    class="cart-icon" alt="Cart Icon" /></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quant">
+                                <input type="number" class="amount" placeholder="1" />
+                                <div class="arrows">
+                                    <img src="/img/accordian_arrow.svg" class='up-arrow' alt="Up Arrow" />
+                                    <img src="/img/accordian_arrow.svg" class='down-arrow' alt="Down Arrow" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- PAGINATION -->
+
+                </div>
+                <div>
+                    <ul class='pagination'>
+                        <li class='arrow_pag'>
+                            <span class="material-symbols-outlined">
+                                chevron_left
+                            </span>
+                        </li>
+                        <li class='li selected'>1</li>
+                        <li class='li'>2</li>
+                        <li class='li'>3</li>
+                        <li class='li extra'>4</li>
+                        <li class='li extra'>5</li>
+                        <li class='li'>...</li>
+                        <li class='li'>11</li>
+                        <li class='arrow_pag'>
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <div class='center-pay'>
+            <div class='row'>
+                <div class='social-media'>
+                    <div class='logos'>
+                        <img class='payment-icons' src='/img/visa.svg' />
+                        <img class='payment-icons' src='/img/mastercard.svg' />
+                        <img class='payment-icons' src='/img/amex.svg' />
+                        <img class='payment-icons' src='/img/skrill.svg' />
+                        <img class='payment-icons' src='/img/crypto.svg' alt="" />
+                        <a class='more'> and 50+ more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+            <div class='row'>
+                <div class='social-media'>
+                    <a href='#'><img class='icons' src='/img/facebook_white.svg' /></a>
+                    <a href='#'><img class='icons' src='/img/instagram_white.svg' /></a>
+                    <a href='#'><img class='icons' src='/img/twitter_white.svg' /></a>
+                    <a href='#'><img class='icons' src='/img/discord_white.svg' /></a>
+                </div>
+            </div>
+            <hr class="hr" />
+            <div class="row">
+                <div class="social-media">
+                    <div class="footer-list">
+                        <img class='img' src="/img/chicks-logo.png" />
+                        <p class='support'>support@chicksgold.com</p>
+                    </div>
+                    <hr class='hr2' />
+                    <div class="footer-list">
+                        <select disabled class='dropdown-footer'>
+                            <option selected value="Chicks Gold">Chicks Gold</option>
+                        </select>
+                        <ul class='footer-category'>
+                            <li class='title'>Chicks Gold</li>
+                            <li class='footer-element'><a class='footer-text' href="#">Games</a></li>
+                            <li class='footer-element'><a class='footer-text' href="#">About Us</a></li>
+                            <li class='footer-element'><a class='footer-text' href="#">Blog</a></li>
+                            <li class='footer-element'><a class='footer-text' href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <hr class='hr2' />
+
+                    <div class="footer-list">
+                        <select disabled class='dropdown-footer'>
+                            <option selected value="Support">Support</option>
+                        </select>
+                        <ul class='footer-category'>
+                            <li class='title'>Support</li>
+                            <li class='footer-element'><a class='footer-text' href="#">Contact Us</a></li>
+                            <li class='footer-element'><a class='footer-text' href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <hr class='hr2' />
+                    <div class="footer-list">
+                        <select disabled class='dropdown-footer'>
+                            <option selected value="Legal">Legal</option>
+                        </select>
+                        <ul class='footer-category'>
+                            <li class='title'>Legal</li>
+                            <li class='footer-element'><a class='footer-text' href="#">Privacy Policy</a></li>
+                            <li class='footer-element'><a class='footer-text' href="#">Terms of Service</a></li>
+                            <li class='footer-element'><a class='footer-text' href="#">Copyright Policy</a></li>
+                        </ul>
+                    </div>
+                    <hr class='hr2' />
+                    <div class='footer-list review'>
+                        <div class='review'>
+                            <img class='stars' src='/img/stars-5-1.png' />
+                            <p class='reviews'> Trustpilot Reviews </p>
+
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>© 2017 - 2020 Chicksgold.com. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

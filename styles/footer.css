@@ -1,0 +1,244 @@
+/* General footer structure */
+.footer {
+  display: block;
+  margin-top: auto;
+}
+
+/* Payment icons and social media section */
+.center-pay {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #2b2c3c;
+  height: 70px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.social-media {
+  max-width: 1260px;
+  width: 80%;
+  list-style: none;
+}
+
+.logos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Payment icons with more link */
+.payment-icons {
+  margin-left: 30px;
+}
+
+.more {
+  font-size: 12px;
+  margin-left: 30px;
+  font-weight: 100;
+  color: rgb(184, 180, 180);
+}
+
+/* Divider lines (reordered for visual flow) */
+.hr {
+  display: flex;
+  width: 78%;
+  max-width: 1230px;
+  height: .25px;
+  margin: 20px auto;
+  background-color: #4c6085;
+}
+
+.hr2 {
+  display: none;
+  width: 90%;
+  max-width: 1230px;
+  height: 1px;
+  margin: auto;
+  background-color: #4c6085;
+}
+
+/* Main footer content container */
+.list {
+  width: 100%;
+  background-color: #303141;
+}
+
+/* Footer lists and elements */
+.icons {
+  margin: 20px 0px 0px 30px;
+}
+
+.img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 55px;
+  list-style: none;
+}
+
+.footer-list .review {
+  margin-left: 9rem;
+}
+
+.footer-category li a,
+.footer-category {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #f6f6f6;
+}
+
+.footer-element {
+  margin-bottom: 18px;
+  font-size: 12px;
+}
+
+.footer-text {
+  color: #808080 !important;
+}
+
+.stars {
+  width: 120px;
+  height: 20px;
+}
+
+.review {
+  flex-direction: row;
+}
+
+.reviews {
+  display: inline-flex !important;
+}
+
+.dropdown-footer {
+  display: none;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.1s ease;
+  background: transparent;
+}
+
+/* Support and copyright section */
+.support {
+  font-size: 12px;
+}
+
+.copyright {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 12px;
+}
+
+/* Responsive adjustments (preserved for visual consistency) */
+  @media (max-width: 1430px) {
+    .footer-list {
+      margin: 0 15px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .social-media {
+      width: 100%;
+    }
+    .row {
+      width: 100%;
+      text-align: center;
+    }
+    .payment-icons {
+      margin-left: 10px;
+      width: 50px;
+    }
+    .hr {
+      width: 90%;
+    }
+    .logos {
+      width: 100%;
+    }
+    .icons {
+      width: 30px;
+    }
+    .more {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      display: block;
+    }
+    .footer-category {
+      display: none;
+    }
+    .dropdown-footer {
+      display: flex;
+      margin: 10px 0;
+      font-size: 14px;
+      letter-spacing: 0.58px;
+    }
+    .hr2 {
+      display: flex;
+      margin: 5px auto;
+    }
+    .review {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 5px auto;
+    }
+    .footer-list {
+      width: 87%;
+    }
+    .img {
+      margin-bottom: 0 !important;
+      margin: auto;
+    }
+    .footer-text {
+      display: none !important;
+    }
+    .support {
+      margin-bottom: 20px;
+    }
+    .copyright {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 580px) {
+    .row {
+      align-items: center;
+      text-align: center;
+      justify-content: center !important;
+    }
+    .payment-icons {
+      width: 40px;
+      margin-left: 0;
+    }
+    .logos {
+      min-width: 320px;
+    }
+    .icons {
+      width: 30px;
+    }
+    .more {
+      font-size: 10px;
+    }
+  }

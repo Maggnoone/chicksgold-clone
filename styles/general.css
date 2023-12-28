@@ -1,0 +1,22 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #FAFCFF;
+    font-family: Roboto, sans-serif;
+
+    background: linear-gradient(rgba(48, 49, 65, 0.9),rgba(46, 47, 63, 0.9)),url(/img/wow-backimg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+
+
+ 

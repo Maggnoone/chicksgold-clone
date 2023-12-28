@@ -1,2 +1,7 @@
 # chicksgold-clone
-El clone de la web "Chicks Gold" está diseñado con una combinación de HTML y CSS para lograr una apariencia similar a la del sitio original. La página principal presenta una estructura de diseño moderna y atractiva.
+The clone of the "Chicks Gold" website is designed using a combination of HTML and CSS to achieve a similar appearance to the original site. The main page features a modern and attractive design structure.
+
+## Viewing the website
+1 .- Clone the repository from GitHub at https://github.com/Maggnoone/chicksgold-clone.git
+
+2 .- Open the index.html file in Chrome or with the Live Server extension in Visual Studio Code.
